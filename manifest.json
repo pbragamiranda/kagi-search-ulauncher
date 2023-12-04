@@ -1,0 +1,18 @@
+{
+  "required_api_version": "1",
+  "name": "Kagi Search",
+  "description": "Quick search using Kagi Search",
+  "developer_name": "Pedro Miranda",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "kagi_search_kw",
+      "type": "keyword",
+      "name": "Kagi Search",
+      "default_value": "kagi"
+    }
+  ]
+}
